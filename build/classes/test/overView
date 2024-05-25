@@ -1,0 +1,16 @@
+ProjectName : EmployeeManagementSystem
+1. Admin Login
+a) Add/View/Edit/Delete Employee
+
+2.Employee Login
+
+DB Tables : Employee61(eid,ename,edesg,bsal,hra,da,totsal)
+Admin61(uname,pword,fname,lname,addr,mid,phno)
+
+create table Admin61(uname varchar2(15),pword varchar2(15),fname
+varchar2(15),
+lname varchar2(15),addr varchar2(15),mid varchar2(25),phno
+number(15),primary key(uname));
+
+insert into Admin61
+values(one admin data);
